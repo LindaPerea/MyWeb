@@ -1,0 +1,63 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+#alpha1{
+    position: absolute;
+    left: 90px;
+    top: 75px;
+    display: inline-block;
+    font-size: 130px;
+    font-weight: bolder;
+    font-stretch: ultra-condensed;
+    /* transform: rotate(350deg); */
+    color: #ff82a9;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media( max-width: 500px ) 
+{
+    #alpha1{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 5px;
+    display: inline-block;
+    font-size: 50px;
+    font-weight: bolder;
+    font-stretch: ultra-expanded;
+    /* transform: rotate(350deg); */
+    color: #ff82a9;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+}
+
+#alpha2{
+    position: absolute;
+    left: 95px;
+    top: 69px;
+    display: inline-block;
+    font-size: 130px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-stretch: ultra-condensed;
+    /* transform: rotate(350deg); */
+    color: #ffc0be;
+}
+
+@media( max-width: 500px ) 
+{
+    #alpha2{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 8px;
+    display: inline-block;
+    font-size: 50px;
+    font-weight: bolder;
+    font-stretch: ultra-expanded;
+    /* transform: rotate(350deg); */
+    color: #ffc0be;
+}
+}
